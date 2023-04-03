@@ -26,7 +26,7 @@ Analyzing the rest of the sources we found that the ***biography text area in th
 
 After multiple attempts to exfiltrate the cookie, we ended up creating a simple Flask web application with a single endpoint that could be called using a parameter.
 
-Finally, by writing the following script in the biography text area and sending the enrollment form,  we triggered the review process and puppeteer called our webapp with its cookies as a parameter, which we received and logged on our server. Getting the flag: **HTB{attr1but3s_4r3_m34nt_t0_b3_3sc4p3d}**.
+Finally, by writing the following script in the biography text area and sending the enrollment form,  we triggered the review process and puppeteer called our webapp with its cookies as a parameter, which we received and logged on our server.
 
 **XSS:**
 

@@ -41,4 +41,4 @@ Knowing that, we created a new user and used it to make a call to the /api/enrol
 		.
 	}
 
-This value was written to the database together with the regular enrollment information, and after successfully logging in with our non-admin user, we were able to see the admin stats view and obtain the flag: **HTB{h0rizontal_priv3sc_pwn4g3!}**
+This value was written to the database together with the regular enrollment information, and after successfully logging in with our non-admin user, we were able to see the admin stats view and obtain the flag.

